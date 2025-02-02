@@ -47,6 +47,7 @@ section{
 .imgLocals{
   position: absolute;
   transform: translateY(-50%);
+  box-shadow: 0px 5px 20px #111;
 }
 
 @media screen and (max-width: 760px){
@@ -55,7 +56,6 @@ section{
     transform: translateY(0%);
   }
 }
-
 
 
 @layer base {

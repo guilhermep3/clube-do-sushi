@@ -141,7 +141,7 @@ const Home = () => {
          <section id="locals" className="pt-0 sm:py-16 px-6 flex justify-center">
             <div className="max-w-4xl flex flex-col md:flex-row items-center gap-8 bg-primary p-5 sm:p-8 rounded-xl shadow-lg">
                <div className="w-full md:w-2/5 relative">
-                  <img src="./locals.jpg" className="imgLocals rounded-lg shadow-md" alt="Imagem da frente do restaurante" />
+                  <img src="./locals.jpg" className="imgLocals rounded-lg" alt="Imagem da frente do restaurante" />
                </div>
                <div className="w-full md:w-2/3  text-white">
                   <h1 className="julee text-3xl sm:text-4xl">Locais que atendemos</h1>
