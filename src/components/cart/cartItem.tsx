@@ -1,20 +1,22 @@
-import { MinusIcon, PlusIcon } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { ProductType } from "@/types/productType"
-import { Cart } from "@/types/cart"
-import { useCartStore } from "@/stores/cart-store"
+import { MinusIcon, PlusIcon } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ProductType } from "@/types/productType";
+import { Cart } from "@/types/cart";
+import { useCartStore } from "@/stores/cart-store";
 
-type props = {
-   item: Cart
-}
-export const CartItem = ({ item }: props) => {
-   const { upsertCartItem } = useCartStore();
+type Props = {
+   item: Cart;
+};
 
-   function handleMinusBtn(){
-      upsertCartItem(item.product, -1)
+export const CartItem = ({ item }: Props) => {
+   const { sauce, upsertCartItem } = useCartStore();
+
+   function handleMinusBtn() {
+      upsertCartItem(item.product, -1);
    }
-   function handlePlusBtn(){
-      upsertCartItem(item.product, 1)
+
+   function handlePlusBtn() {
+      upsertCartItem(item.product, 1);
    }
 
    return (
@@ -42,5 +44,5 @@ export const CartItem = ({ item }: props) => {
             </div>
          </div>
       </div>
-   )
-}
+   );
+};

@@ -13,7 +13,7 @@ const Home = () => {
             <div className="wrapper flex-col sm:flex-row justify-center items-center gap-10 sm:gap-20 pt-6 sm:py-12 px-2 h-full">
                <div className="flex-1 text-center sm:text-start">
                   <h1 className="text-4xl sm:text-6xl julee">Sushi Club<br />Refrescante e Delicioso.</h1>
-                  <h2 className="my-5 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus maxime laboriosam explicabo illum vel repellendus quidem, obcaecati cumque.</h2>
+                  <h2 className="my-5 text-base">o Sushi Club, cada prato é uma experiência única, criada com tradição, qualidade e paixão. Venha viver essa experiência e descubra o verdadeiro sabor do Japão!</h2>
                   <Button className="px-9 py-6 sm:px-12 sm:py-7 text-xl">
                      <Link href={'/shop'}>Comprar</Link>
                   </Button>
@@ -29,22 +29,22 @@ const Home = () => {
                   <div className="max-h-96 p-4 flex justify-center items-center flex-col text-center
                      border-r-4 border-b-4 border-primary">
                      <h1 className="julee text-3xl sm:text-4xl">Mais de 22 anos de experiência</h1>
-                     <p className="my-2 sm:my-3 text-sm">Desde 2003, preparamos cada prato com paixão para levar até você o sabor autêntico da culinária japonesa.</p>
+                     <p className="my-2 sm:my-3 text-sm">Desde 2003, cada prato é preparado com dedicação para proporcionar a você o verdadeiro sabor da culinária japonesa, combinando tradição e qualidade.</p>
                      <div className="mt-3 flex gap-3 w-full justify-between">
                         <div className="flex flex-col items-center flex-1">
                            <ChartNoAxesCombined className="text-primary size-10 sm:size-14" />
                            <p className="font-bold">+22 anos exp</p>
-                           <p className="mt-2 text-sm/5">Lorem ipsum dolor sit amet lorem ipsum.</p>
+                           <p className="mt-2 text-sm/5">Compromisso e excelência em cada detalhe.</p>
                         </div>
                         <div className="flex flex-col items-center flex-1">
                            <FishSymbol className="text-primary size-10 sm:size-14" />
                            <p className="font-bold">Ingredientes frescos</p>
-                           <p className="mt-2 text-sm/5">Lorem ipsum dolor sit amet lorem ipsum.</p>
+                           <p className="mt-2 text-sm/5">Ingredientes selecionados para garantir o melhor sabor.</p>
                         </div>
                         <div className="flex flex-col items-center flex-1">
                            <Star className="text-primary size-10 sm:size-14" />
                            <p className="font-bold">5 Estrelas</p>
-                           <p className="mt-2 text-sm/5">Lorem ipsum dolor sit amet lorem ipsum.</p>
+                           <p className="mt-2 text-sm/5">Aprovado por nossos clientes pela qualidade.</p>
                         </div>
                      </div>
                   </div>

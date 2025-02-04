@@ -37,17 +37,17 @@ export const DialogModal = ({ product, isOpen, onClose }: props) => {
             <div className="flex flex-col justify-between">
                <div>
                   <DialogTitle className="text-3xl julee">{product.name}</DialogTitle>
-                  <DialogDescription>{product.description}</DialogDescription>
+                  <DialogDescription className="text-sm mt-2">{product.description}</DialogDescription>
                </div>
-               <div className="flex justify-between items-center">
+               <div className="flex justify-between items-center mt-3 sm:mt-0">
                   <div className="flex items-center">
                      <Button variant={"secondary"} size={"icon"}
-                        className="size-7 rounded-sm" onClick={() => setQuantity(prev => Math.max(prev - 1, 1))}>
+                        className="size-7 rounded-sm px-4" onClick={() => setQuantity(prev => Math.max(prev - 1, 1))}>
                         <MinusIcon />
                      </Button>
                      <span className="text-lg mx-2">{quantity}</span>
                      <Button variant={"secondary"} size={"icon"}
-                        className="size-7 rounded-sm" onClick={() => setQuantity(prev => prev + 1)}>
+                        className="size-7 rounded-sm px-4" onClick={() => setQuantity(prev => prev + 1)}>
                         <PlusIcon />
                      </Button>
                   </div>
