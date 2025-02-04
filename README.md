@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clube do Sushi 🍣
 
-## Getting Started
+Um site moderno e responsivo para uma loja de sushi, desenvolvido em React. O projeto inclui uma página de apresentação e uma página de e-commerce com sistema de validação de formulário para entrega de produtos.
 
-First, run the development server:
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/871173b2-50a8-4223-b7e7-776e9ce88bd3" alt="Página de Apresentação" width="45%">
+  <img src="https://github.com/user-attachments/assets/bc414897-bf09-462d-a55d-704e18e156bb" alt="Página de E-commerce" width="45%">
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Página de Apresentação**:
+  - Design moderno e responsivo.
+  - Informações sobre o restaurante e seus pratos.
+  
+- **Página de E-commerce**:
+  - Sistema de validação de formulário usando **Zod**.
+  - Armazenamento local de dados com **Zustand**.
+  - Interface intuitiva para seleção e compra de produtos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router**: Para navegação entre páginas.
+- **Shadcn-ui**: Componentes prontos para uso, garantindo consistência e agilidade no desenvolvimento.
+- **Zod**: Para validação de formulários com esquemas robustos.
+- **Zustand**: Gerenciamento de estado leve e eficiente.
+- **Tailwind CSS**: Framework de estilização utilitária para criar designs responsivos e modernos.
 
-## Learn More
+## Como Executar o Projeto
 
-To learn more about Next.js, take a look at the following resources:
+Siga os passos abaixo para rodar o projeto localmente:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/clube-do-sushi.git
+2. **Instalar dependências**:
+   ```bash
+   npm install
+3. **Rodar o projeto**:
+   ```bash
+   npm run dev
