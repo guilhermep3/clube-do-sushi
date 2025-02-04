@@ -82,17 +82,17 @@ const Home = () => {
                <h1 className="julee text-4xl sm:text-5xl text-center my-4">O Que Oferecemos</h1>
                <div className="flex justify-between items-center gap-8 flex-wrap">
                   <div className="flex flex-col justify-center items-center sm:flex-1 gap-2">
-                     <img src="./services/services1.png" className="w-56 sm:w-72" alt="imagem do sushi em serviços" />
+                     <img src="./servicesimg/services1.png" className="w-56 sm:w-72" alt="imagem do sushi em serviços" />
                      <h2 className="text-3xl julee">Nigiri</h2>
                      <p className="text-sm sm:text-base">Feito com uma bolinha de arroz moldada à mão e coberta com uma fatia de peixe cru.</p>
                   </div>
                   <div className="flex flex-col justify-center items-center sm:flex-1 gap-2">
-                     <img src="./services/services2.png" className="w-56 sm:w-72" alt="imagem do sushi em serviços" />
+                     <img src="./servicesimg/services2.png" className="w-56 sm:w-72" alt="imagem do sushi em serviços" />
                      <h2 className="text-3xl julee">Sushi Tradicional</h2>
                      <p className="text-sm sm:text-base">Rolinhos de sushi envoltos em alga (nori) e recheados com arroz, peixe cru e vegetais.</p>
                   </div>
                   <div className="flex flex-col justify-center items-center sm:flex-1 gap-2">
-                     <img src="./services/services3.png" className="w-56 sm:w-72" alt="imagem do sushi em serviços" />
+                     <img src="./servicesimg/services3.png" className="w-56 sm:w-72" alt="imagem do sushi em serviços" />
                      <h2 className="text-3xl julee">Temaki</h2>
                      <p className="text-sm sm:text-base">Sushi em formato de cone feito com folha de alga nori recheada com arroz, peixe cru, vegetais e cream cheese</p>
                   </div>

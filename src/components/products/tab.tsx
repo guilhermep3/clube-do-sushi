@@ -60,7 +60,7 @@ export const Tab = () => {
                   <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 mb-10 mx-1">
                      {item.products.map((product) => (
                         <div key={product.id} className="bg-cinza1 h-auto mb-5">
-                           <img src={product.image} alt="" className="w-full h-2/3 sm:h-3/4 object-cover" />
+                           <img src={product.image} alt={product.name} className="w-full h-2/3 sm:h-3/4 object-cover" />
                            <div className="flex justify-between items-center px-1">
                               <h2 className="text-lg my-2">{product.name}</h2>
                               <p>R${product.price.toFixed(2)}</p>

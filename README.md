@@ -1,6 +1,6 @@
 # Clube do Sushi 🍣
 
-Um site moderno e responsivo para uma loja de sushi, desenvolvido em React. O projeto inclui uma página de apresentação e uma página de e-commerce com sistema de validação de formulário para entrega de produtos.
+Um site responsivo para uma loja de sushi, desenvolvido em React. O projeto inclui uma página de apresentação e uma página de e-commerce com sistema de validação de formulário para entrega de produtos.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/871173b2-50a8-4223-b7e7-776e9ce88bd3" alt="Página de Apresentação" width="45%">
