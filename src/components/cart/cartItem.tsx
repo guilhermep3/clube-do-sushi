@@ -9,7 +9,7 @@ type Props = {
 };
 
 export const CartItem = ({ item }: Props) => {
-   const { sauce, upsertCartItem } = useCartStore();
+   const { sauceStored, upsertCartItem } = useCartStore();
 
    function handleMinusBtn() {
       upsertCartItem(item.product, -1);

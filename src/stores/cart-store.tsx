@@ -5,7 +5,7 @@ import { create } from "zustand";
 
 type States = {
    cart: Cart[];
-   sauceStored: Sauce | null
+   sauceStored: Sauce
 }
 
 type Actions = {
@@ -15,7 +15,11 @@ type Actions = {
 
 const initialStates: States = {
    cart: [],
-   sauceStored: null
+   sauceStored: {
+   id: 1,
+   name: 'Shoyu',
+   img: 'molhos/molho-shoyu.png'
+}
 }
 
 export const useCartStore = create<States & Actions>()(set => ({
