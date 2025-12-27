@@ -14,11 +14,6 @@ export default {
 				cinza1: 'rgb(var(--cinza-1))',
 				cinza2: 'rgb(var(--cinza-2))',
 				cinza3: 'rgb(var(--cinza-3))',
-				cinza4: 'rgb(var(--cinza-4))',
-				cinza5: 'rgb(var(--cinza-5))',
-				cinza6: 'rgb(var(--cinza-6))',
-				cinza7: 'rgb(var(--cinza-7))',
-				salmao: 'rgb(var(--salmao))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				card: {
