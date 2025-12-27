@@ -59,11 +59,13 @@ export const Tab = () => {
                {item.products.length > 0 ? (
                   <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 mb-10 mx-1">
                      {item.products.map((product) => (
-                        <div key={product.id} className="bg-cinza1 h-auto mb-5">
-                           <img src={product.image} alt={product.name} className="w-full h-2/3 sm:h-3/4 object-cover" />
-                           <div className="flex justify-between items-center px-1">
+                        <div key={product.id} className="bg-cinza1 mb-5">
+                           <img src={product.image} alt={product.name}
+                              className="w-full h-36 sm:h-48 object-cover"
+                           />
+                           <div className="flex justify-between items-center p-2">
                               <h2 className="text-lg my-2">{product.name}</h2>
-                              <p>R${product.price.toFixed(2)}</p>
+                              <p className="text-lg font-semibold">R${product.price.toFixed(2)}</p>
                            </div>
                            <Button className="w-full" onClick={() => onProductClick(product)}>
                               Ver mais
